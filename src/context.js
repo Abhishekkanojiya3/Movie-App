@@ -4,7 +4,7 @@ import { useContext } from "react";
 const AppContext = React.createContext();
 
 
-const API_URL = `http://www.omdbapi.com/?apikey=4154f883`;
+const API_URL = `https://www.omdbapi.com/?apikey=4154f883`;
 
 const AppProvider = ({ children }) => {
     const [isLoading, setIsLoading] = useState(true);
