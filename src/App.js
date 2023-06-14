@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './Home'
-import Movies from './Movies'
 import MovieDetail from './MovieDetail'
 import Error from './Error'
 import './App.css'
